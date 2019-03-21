@@ -10,5 +10,5 @@ def my_find(collection)
 end
 
 
-collection = (1..10).to_a
+collection = (1..15).to_a
 my_find(collection) {|i| i % 3 == 0 and i % 5 == 0 }
